@@ -27,7 +27,6 @@ The goal is to understand customer demographics, preferences, and purchasing pat
 ---
 
 ## 📊 Dashboard Preview
-*(Insert screenshots here)*  
 - KPI Cards: Revenue, Avg Purchase, Subscription Impact  
 - Bar Chart: Revenue by Gender  
 - Pie Chart: Shipping Preferences  

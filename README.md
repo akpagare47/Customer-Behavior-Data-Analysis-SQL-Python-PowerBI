@@ -1,91 +1,76 @@
 🛒 Customer Shopping Behavior Analysis
-Uncovering insights from 3,900 purchases to guide strategic business decisions.
+
+Uncovering insights from 3,900 purchases to guide strategic business decisions
 
 📊 Project Overview
-This project analyzes customer shopping behavior using transaction data to identify key trends, optimize marketing strategies, and improve business performance.
+
+This project analyzes customer shopping behavior to extract actionable insights that support marketing strategy, product positioning, and customer retention.
 
 Total Purchases: 3,900
 
-Data Columns: 18 (customer demographics & behavior)
+Data Columns: 18 (covering demographics & purchase behavior)
 
-Missing Values: 37 (only in Review Rating column)
+Missing Values: 37 (only in Review Rating)
 
-⚙️ Data Preparation Process
-Data Loading – Imported dataset using pandas
+⚙️ Workflow
 
-Initial Exploration – Structure check and summary statistics
+Data Loading: Imported dataset using Python (Pandas)
 
-Missing Data Handling – Imputed Review Rating with median values
+Exploration: Performed summary statistics and structure analysis
 
-Feature Engineering – Created age groups and purchase frequency metrics
+Missing Data Handling: Median imputation for review ratings
 
-Database Integration – Connected to PostgreSQL for advanced analysis
+Feature Engineering: Created Age Groups & Purchase Frequency features
+
+Database Integration: Stored and queried data using PostgreSQL
+
+Visualization: Built interactive Power BI dashboards for business insights
 
 💡 Key Insights
-Revenue by Gender
-Female customers generate slightly higher total revenue than male customers
 
-Opportunity: Gender-based marketing strategies to optimize revenue streams
+👩 Female customers generate slightly higher revenue than males
 
-High-Value Discount Users
-Smart Shoppers: High spenders who maximize value with discounts
+🚀 Express shipping users spend 12% more per transaction
 
-Opportunity: Target premium customers with exclusive offers
+🔑 Subscribers contribute 45% of total revenue with a 78% loyalty rate
 
-Top-Rated Products
-👗 Blouse – Highest customer satisfaction (Rating: 5)
+⭐ Top-rated products:
 
-👗 Dress – Consistently excellent reviews (Rating: 5)
+Blouse (5⭐)
 
-👕 Shirt – Strong customer approval (Rating: 4)
+Dress (5⭐)
 
-Shipping Preferences
-Express Shipping: $65 average purchase amount
+Shirt (4⭐)
 
-Standard Shipping: $58 average purchase amount
+📈 Customer Segmentation
+Segment	Description	Percentage
+Loyal	High-value, repeat customers	15%
+Returning	Regular shoppers	35%
+New	First-time buyers	50%
+📊 Dashboard Preview
 
-Express shipping customers spend 12% more per transaction
+(Insert Power BI screenshots here)
 
-Subscription Impact
-68% Higher Spend – Subscribers vs non-subscribers
+Dashboard Components:
 
-45% Revenue Share – From subscription customers
+KPI Cards: Revenue, Avg Purchase Value, Subscription Impact
 
-78% Loyalty Rate – Repeat purchase frequency
+Bar Chart: Revenue by Gender
 
-Customer Segmentation
-Loyal (15%) – High-value customers
+Pie Chart: Shipping Preferences
 
-Returning (35%) – Regular shoppers
+Tree Map: Top-Rated Products
 
-New (50%) – First-time buyers
+Segmentation Table: With interactive slicers
 
-Focus: Convert New → Returning and Returning → Loyal
+🎯 Recommendations
 
-🎯 Strategic Recommendations
-Boost Subscriptions – Promote exclusive benefits for subscribers
+📈 Boost subscriptions with exclusive benefits & personalized offers
 
-Loyalty Programs – Reward repeat buyers to increase retention
+🎁 Reward repeat buyers through loyalty and referral programs
 
-Targeted Marketing – Focus on high-revenue segments and express users
+🎯 Target express shipping users with premium product promotions
 
-Product Positioning – Highlight top-rated products in campaigns
+🧰 Tech Stack
 
-🛠️ Tech Stack
-Python (pandas, NumPy, matplotlib, seaborn) – Data cleaning & EDA
-
-PostgreSQL – Database integration & queries
-
-Power BI / Excel – Dashboard visualization & reporting
-
-📈 Business Impact
-This analysis provides actionable insights to:
-
-Increase customer retention through loyalty programs
-
-Drive higher revenue via subscription models
-
-Optimize marketing strategies based on demographics and behavior
-
-Improve product positioning by leveraging customer satisfaction data# Customer-Behavior-Data-Analysis-SQL-Python-PowerBI
-Complete Data Analytics Project with end-to-end industry standard Data Analysis of Customer Shopping Trends from Retail Data using SQL, Python and Power BI.
+Python, Pandas, PostgreSQL, Power BI
